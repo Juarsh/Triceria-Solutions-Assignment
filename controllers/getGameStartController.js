@@ -15,5 +15,4 @@ const getGameStartController = async (req, res) => {
   return res.send(result);
 };
 
-getGameStartController();
 module.exports = getGameStartController;
